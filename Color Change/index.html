@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+</head>
+<style>
+    *
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .container
+    {
+        margin: 100px 500px;
+        background-color: black;
+        width:500px;
+        height: 500px;
+        text-align: center;
+    }
+    button{
+        margin-top: 12px;
+        height: 40px;
+        width: 80px;
+        cursor: pointer;
+    }
+ 
+   
+  
+    .abc{
+        background-color: red;
+    }
+    .def{
+        background-color: green;
+    }
+    .ghi{
+        background-color: yellow;
+    }
+    .jkl{
+        background-color: blue;
+    }
+    .mno{
+        background-color: rgb(196, 94, 111);
+    }
+    .pqr{
+        background-color: navy;
+    }
+    
+    .xyz{
+        background-color: silver;
+    }
+</style>
+<body>
+    <div class="container">
+
+
+        <button id="red" class="red" onclick="change()"ondblclick="ch()" >Red</button><br> <br>
+          <button id="green" class="green" onclick="change1()" ondblclick="ch1()">Green</button> <br> <br>
+            <button id="yellow" class="yellow" onclick="change2()" ondblclick="ch2()">Yellow</button> <br> <br>
+              <button id="blue" class="blue" onclick="change3()" ondblclick="ch3()">Blue</button> <br><br>
+                <button id="pink" class="pink" onclick="change4()" ondblclick="ch4()">Pink</button><br><br>
+                  <button id="navy" class="navy" onclick="change5()"ondblclick="ch5()" >Navy</button><br><br>
+                    <button id="silver" class="silver" onclick="change6()" ondblclick="ch6()">Silver</button><br><br>
+    </div>
+    
+    
+</body>
+
+
+<script>
+
+
+
+
+// ...0
+function change(){
+    document.querySelector(".red").className = "abc";
+}
+function ch(){
+        document.querySelector(".abc").className = "red";
+
+    }
+
+
+// ...1
+function change1(){
+    document.querySelector(".green").className = "def";
+  
+}
+function ch1(){
+        document.querySelector(".def").className = "green";
+
+    }
+
+
+// ...2
+function change2(){
+    document.querySelector(".yellow").className = "ghi";
+  
+}
+
+function ch2(){
+        document.querySelector(".ghi").className = "yellow";
+
+    }
+
+
+
+// ...3
+function change3(){
+    document.querySelector(".blue").className = "jkl";
+}
+
+    function ch3(){
+        document.querySelector(".jkl").className = "blue";
+
+    }
+
+
+// ...4
+   function change4(){
+    document.querySelector(".pink").className = "mno";   }
+
+    function ch4(){
+        document.querySelector(".mno").className = "pink";
+
+    }
+
+
+   
+// ...5
+
+
+function change5(){
+    document.querySelector(".navy").className = "pqr";
+}
+function ch5(){
+        document.querySelector(".pqr").className = "navy";
+
+    }
+
+
+// ...6
+    function change6(){
+        document.querySelector(".silver").className = "xyz";
+
+    }
+
+    function ch6(){
+        document.querySelector(".xyz").className = "silver";
+
+    }
+
+
+
+
+
+
+
+
+
+// document.getElementsByClassName(".pink").addEventListener("mouseenter", abc);
+// function abc(){
+//     document.getElementsByClassName(".pink").style.background = "green"
+// }
+
+    // document.querySelector("pink").className ="abc";
+
+
+    // function first(){
+    //     var first = document.getElementById("red");
+    // }
+
+    // document.getElementById("green").addEventListener("click");
+    // document.getElementById("#green").container.style.background = "green";
+
+    // document.querySelector("#yellow").classList.add("yellow","pido");
+
+    // var element;
+
+    // element = document.querySelector("#navy").style.border;
+
+    // console.log(element);
+</script>
+</html>
