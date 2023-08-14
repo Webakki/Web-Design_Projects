@@ -1,0 +1,32 @@
+.banner ,h1, button
+{
+    transition: 0.6s;
+    
+}
+
+.banner
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+     background: url(vector-landscape-illustration.jpg);
+    background-size: 180%;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.banner h1 
+{
+color: #f9f9f9;
+}
+
+.banner button {
+    padding: 12px 36px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    background: #221e6f;
+    color: #f9f9f9;
+}
