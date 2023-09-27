@@ -1,0 +1,10 @@
+{
+    "name":"Akki's Joke",
+    "description": "Get a new joke everyday",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action":{
+        "default_popup":"index.html",
+        "default_icon": "./Assets/joke.png"
+    }
+}
